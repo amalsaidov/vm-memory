@@ -20,6 +20,7 @@ remain completely unchanged.
 ### Fixed
 
 - \[[#361](https://github.com/rust-vmm/vm-memory/pull/361)\] clippy: allow mut_from_ref
+- \[[#PRNUM](https://github.com/rust-vmm/vm-memory/pull/PRNUM)\] Stop `Iotlb` from panicking (debug) or silently returning a bogus empty translation (release) when an IOVA range's end would overflow `u64`
 
 ## \[v0.17.1\]
 
